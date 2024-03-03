@@ -1,0 +1,139 @@
+*{
+    padding:0px;
+    margin:0px;
+
+    /* background-color: #E0D7C7; */
+
+}   
+/* .main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.0;
+    background-color: #000000;
+} */
+
+body{
+    background-color: #E0D7C7;
+    
+} 
+
+img{
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E0D7C7;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+
+}
+
+nav:hover{
+    background-color:#56453E;
+    color: #E0D7C7;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    /* background-color: #E0D7C7; */
+}
+
+li:hover{
+    background-color:#E0D7C7 ;
+    color:#56453E;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    color: #3e2a07;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 37%; */
+}
+
+
+a{
+    color: #3e2a07;
+    text-decoration: none;
+}
+
+
+figure{
+   background-image: url(car\ p1.jpg);
+   background-size: cover;
+   height: 50vh;
+   width: 100vw;
+   /* filter:opacity(0.9) ;
+   -webkit-filter:opacity(0.9) ; */
+}
+
+p{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   text-overflow: clip;
+   padding-top: 8%;
+   font-size: 2em;
+   font-weight: 900;
+}
+
+/* .banner{
+    color: darkorange;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+section{
+    background-color: #E0D7C7;
+    text-align: center;
+    color: #3e2a07;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer{
+    background-color: black;
+    color: darkorange;
+}
+.bottom{
+    display: flex;
+    padding: 20px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+/* .bottom .bottom2 {
+    background-color: black;
+    color: darkorange;
+    
+} */
+
+#middle{
+    margin-right: 20%;
+}
